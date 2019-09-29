@@ -1,6 +1,8 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Assets/logo.png" />	
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/index_style.css" />
 
@@ -9,38 +11,41 @@
 </head>
 
 <body>
-    <div class="container py-3">
+        <title>Product Programe </title>
+    <h1 class="text-center text-success bg-dark py-5"> welcome to product programe</h1>
+    <div class="container py-3 mt-4 text-danger">
         <div class="form-group">
-            <label>productName :</label>
+            <label>product Name </label>
             <input id="productName" class="form-control" />
         </div>
         <div class="form-group">
-            <label>productPrice :</label>
+            <label>product Price </label>
             <input id="productPrice" class="form-control" />
         </div>
         <div class="form-group">
-            <label>productCompany :</label>
+            <label>product Company </label>
             <input id="productCompany" class="form-control" />
         </div>
         <div class="form-group">
-            <label>productDescription :</label>
+            <label>product Description </label>
             <textarea id="productDesc" class="form-control"></textarea>
         </div>
-        <button id="addBtn" class="btn float-right btn-info">add product</button>
+        <button id="addBtn" class="btn float-right btn-warning">Add product</button>
         <div class="clearfix"></div>
 
 
 
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center Prouduct mt-2 pt-3">
         <div class="row" id="rowData">
         </div>
     </div>
 
-    <script src="main.js"></script>
-
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

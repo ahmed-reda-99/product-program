@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.py-3{
+    background-color: darkgray;
+    font-size: 25px
+}
+.Prouduct{
+    background-color: dimgray
+}
